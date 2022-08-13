@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Launch Countdown Timer</title>
+  <link rel="stylesheet" href="./style/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <di class="container">
+      <h1 class="container__title">We're launching soon</h1>
+      <div class="container__time">
+        <div class="time">
+          <div class="time__number">
+            <!-- set the color for effect -->
+            <div class="top__effect"></div>
+            <h2 class="number" id="day">08</h2>
+            <div class="bottom__effect"></div>
+          </div>
+          <span class="time__title">DAYS</span>
+        </div>
+        <div class="time">
+          <div class="time__number">
+            <div class="top__effect"></div>
+            <h2 class="number" id="hour">23</h2>
+            <div class="bottom__effect"></div>
+          </div>
+          <span class="time__title">HOURS</span>
+        </div>
+        <div class="time">
+          <div class="time__number">
+            <div class="top__effect"></div>
+            <h2 class="number" id="minute">55</h2>
+            <div class="bottom__effect"></div>
+          </div>
+          <span class="time__title">MINUTES</span>
+        </div>
+        <div class="time">
+          <div class="time__number">
+            <div class="top__effect"></div>
+            <h2 class="number" id="second">41</h2>
+            <div class="bottom__effect"></div>
+          </div>
+          <span class="time__title">SECONDS</span>
+        </div>
+      </div>
+     
+      <div class="icons">
+        <img src="./images/icon-facebook.svg" alt="facebook">
+        <img src="./images/icon-pinterest.svg" alt="pinterest">
+        <img src="./images/icon-instagram.svg" alt="instagram">
+      </div>
+      <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Paul Andres</a>.
+      </footer>
+      <!-- Add the hills below -->
+      <img class="container__hills" src="./images/pattern-hills.svg" alt="hills">
+      <!-- Add the stars below -->
+      <img class="container__stars" src="./images/bg-stars.svg" alt="stars">
+    </div>
+  </main>
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
